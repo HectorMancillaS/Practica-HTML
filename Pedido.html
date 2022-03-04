@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedido</title>
+    <style>
+    
+        body {
+            font-family: Cream Cake, Helvetica, sans-serif;
+            color: rgb(248, 103, 198);
+            background-color: rgb(162, 179, 214);
+    }
+    
+        h1,h2{
+        text-align: center;
+    }
+        p{
+        font-size: 15px;   
+        }
+    </style>
+    <body>
+        <img src="./Imagenes/Barra.jpg" alt="100%"> 
+        <h1 style="font-size: 100px;">Tentaciones Pasteleria</h1>
+        <h2> Aqui tomamos su pedido..</h2>
+        <form action="Pedido.js">
+            <label for="Nombre">¿A que nombre su pedido?</label>
+            <br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+            <p>¿Para recoger en tienda o para envio?</p>
+            <input type="radio" id="Recoger" name="recogeroenviar" value="Recoger">
+            <label for="Recoger">Recoger</label>
+            
+
+            <input type="radio" id="Enviar" name="recogeroenviar" value="Enviar">
+            <label for="Enviar">Enviar</label>
+            <br>
+            <br>
+
+            <label for="direccion">A que direccion se lo enviamos.
+            </label><br>
+            <input type="direccion" id="direccion" name="direccion" placeholder="direccion">
+
+
+        </form>
+         
+    </body>
